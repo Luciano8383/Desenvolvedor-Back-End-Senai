@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DevBackEnd2s24"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-07-27 04:53:47 "/>
+        <attribute name="created" value="RGV2QmFja0VuZDJzMjQ7REVTS1RPUC1NTzVBRjdTOzIwMjQtMDctMjc7IjExOjQyOjE3ICI7MzQ2Mg=="/>
+        <attribute name="edited" value="RGV2QmFja0VuZDJzMjQ7REVTS1RPUC1NTzVBRjdTOzIwMjQtMDctMjc7IjA0OjUzOjQ3ICI7MzszNTc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, par" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro numero:&quot;" newline="True"/>
+            <input variable="num1"/>
+            <assign variable="par" expression="num1%2"/>
+            <if expression="par=0">
+                <then>
+                    <output expression="&quot;esse numero &#233; par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;esse numero e impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
